@@ -23,6 +23,7 @@ pipeline {
                 sh '''
                 cd myapp
                 python3 dummy.py
+                python3 dummy.py --name=Tan
                 '''
             }
         }
