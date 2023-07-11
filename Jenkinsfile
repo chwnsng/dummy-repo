@@ -12,8 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                cd myapp
-                pip install -r requirements.txt
+                echo "doing build stuff.."
                 '''
             }
         }
@@ -21,9 +20,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                cd myapp
-                python3 dummy.py
-                python3 dummy.py --name=Tan
+                echo "Testing my patience... (networking problems)"
                 '''
             }
         }
@@ -31,7 +28,7 @@ pipeline {
             steps {
                 echo 'Deliver....'
                 sh '''
-                echo "doing delivery stuff.."
+                echo "Removing liver..."
                 '''
             }
         }
