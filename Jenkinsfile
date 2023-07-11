@@ -22,7 +22,8 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 echo "Testing my patience... (networking problems)"
-                python3 dummy.py
+                cd myapp
+                python3 hello.py
                 '''
             }
         }
