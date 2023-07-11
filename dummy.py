@@ -11,3 +11,5 @@ print('''
                                |  $$$$$$/              
                                 \______/              
 ''')
+
+print("<chatGPT generated ASCII art>")
